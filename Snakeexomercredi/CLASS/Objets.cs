@@ -11,7 +11,7 @@ namespace Snakeexomercredi.CLASS
         public  Objets()
         {
         }
-        enum _objets
+        enum particule
         {
             player ='O',
             murs = '#',
