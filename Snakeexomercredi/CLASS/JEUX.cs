@@ -14,6 +14,5 @@ namespace Snakeexomercredi.CLASS
         bool end; // vrai si le jeu s'arrette
         Collectibles collectibles; // creer tableau de collectibles
 
-
     }
 }
