@@ -12,10 +12,10 @@ namespace Snakeexomercredi.CLASS
         public Map()
         {
         }
-        public int longueur = 15;
+        public int longueur = 50;
 
 
-        public int largeur = 15;
+        public int largeur = 50;
 
         public virtual void initmap()
         {

@@ -13,9 +13,21 @@ namespace Snakeexomercredi;
 
     static void Main(string[] args)
     {
+        bool ending = false; 
       Map map = new Map();
-        map.initmap();
+        
+        Joueur joueur = new Joueur();
+        Food food = new Food(); // creer
 
+
+        while (!ending) // afficher
+        {
+            map.initmap();
+            joueur.clavier();
+            food.initmap();
+            joueur.initmap();
+            joueur.deplacer();
+        }
     }
 
        
