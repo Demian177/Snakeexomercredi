@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Snakeexomercredi.CLASS
 {
-    public class Map
+    internal class Collectibles
     {
-        int longueur;
-        int largeur;
+        int x;
+        int y;
+        int value;
+        bool active;
     }
 }

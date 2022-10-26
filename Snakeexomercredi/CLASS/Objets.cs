@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Snakeexomercredi.CLASS
 {
-    public class Map
+    public class Objets
     {
-        int longueur;
-        int largeur;
+        enum _objets
+        {
+            player ='O',
+            murs = '#',
+            pieces = 'X',
+            vide =' ',
+        }
     }
 }

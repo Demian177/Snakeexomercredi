@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snakeexomercredi
+namespace Snakeexomercredi.CLASS
 {
-    internal class collectibles
+    public class Joueur
     {
         int x;
         int y;
-        int value;
-        bool active;
+        int score;
     }
 }
