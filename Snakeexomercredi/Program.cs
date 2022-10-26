@@ -1,10 +1,7 @@
-﻿namespace Snakeexomercredi
+﻿using System.Diagnostics;
+
+namespace Snakeexomercredi
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+  
 }
+
