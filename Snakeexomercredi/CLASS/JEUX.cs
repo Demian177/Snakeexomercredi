@@ -8,6 +8,9 @@ namespace Snakeexomercredi.CLASS
 {
     public class Jeux
     {
+        public Jeux()
+        {
+        }
         int collectiblecount;
         Joueur joueur;
         Map map;

@@ -8,6 +8,9 @@ namespace Snakeexomercredi.CLASS
 {
     public class Objets
     {
+        public  Objets()
+        {
+        }
         enum _objets
         {
             player ='O',

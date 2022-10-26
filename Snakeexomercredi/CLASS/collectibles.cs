@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Snakeexomercredi.CLASS
 {
-    internal class Collectibles
+    public class Collectibles
     {
+        public Collectibles()
+        {
+        }
+
         int x;
         int y;
         int value;

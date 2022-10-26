@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Snakeexomercredi.CLASS
 {
-    internal class Touches
+    public class Touches
+
     {
+        public Touches()
+        {
+        }
         enum Clavier
         {
             Haut = 72,
@@ -17,4 +21,10 @@ namespace Snakeexomercredi.CLASS
             Fin = 27,
         }
     }
+    
 }
+
+    
+
+
+

@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 namespace Snakeexomercredi.CLASS
 {
     public class Map
+
     {
+        public Map() 
+        {
+        }
         int longueur;
         int largeur;
     }
