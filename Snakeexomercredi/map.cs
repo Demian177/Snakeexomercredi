@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snakeexomercredi
 {
-	class map
+	public class map
 	{
 		int longueur;
 		int largeur;
